@@ -1,0 +1,24 @@
+pkgbase = inkdrop
+	pkgdesc = Noke-taking App with Robust Markdown Editor
+	pkgver = 3.12.0
+	pkgrel = 1
+	url = https://www.inkdrop.info/
+	arch = x86_64
+	license = Commercial
+	makedepends = unzip
+	depends = gtk2
+	depends = gconf
+	depends = libnotify
+	depends = libxss
+	depends = libxtst
+	depends = libxkbfile
+	depends = nss
+	depends = libgnome-keyring
+	options = !strip
+	source = https://d3ip0rje8grhnl.cloudfront.net/v3.12.0/Inkdrop-3.12.0-Linux.zip
+	source = inkdrop.desktop
+	sha256sums = bb3f07473672db4db2ea9296e6c6f858cd6c0fa40474702ad2d914caa02ffd91
+	sha256sums = a834e49e5361915a9790c3cb1fc418a5d614f317030f796a0341c457c6159a53
+
+pkgname = inkdrop
+
