@@ -1,6 +1,6 @@
 # Maintainer: marchrock <m4rchrock@gmail.com>
 pkgname=inkdrop
-pkgver=3.12.0
+pkgver=3.13.0
 pkgrel=1
 arch=('x86_64')
 pkgdesc="Noke-taking App with Robust Markdown Editor"
@@ -10,9 +10,9 @@ makedepends=('unzip')
 depends=('gtk2' 'gconf' 'libnotify' 'libxss' 'libxtst' 'libxkbfile' 'nss'
          'libgnome-keyring' 'gnome-keyring')
 options=(!strip)
-source=("https://d3ip0rje8grhnl.cloudfront.net/v3.12.0/Inkdrop-$pkgver-Linux.zip"
+source=("https://d3ip0rje8grhnl.cloudfront.net/v$pkgver/Inkdrop-$pkgver-Linux.zip"
         "inkdrop.desktop")
-sha256sums=('bb3f07473672db4db2ea9296e6c6f858cd6c0fa40474702ad2d914caa02ffd91'
+sha256sums=('c5a6bfed2d8e687713735b01136acf1d8666e7be81bfe1e57a2cfccc121fd82e'
             'a834e49e5361915a9790c3cb1fc418a5d614f317030f796a0341c457c6159a53')
 
 package() {
