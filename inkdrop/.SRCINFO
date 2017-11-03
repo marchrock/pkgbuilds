@@ -1,6 +1,6 @@
 pkgbase = inkdrop
 	pkgdesc = Noke-taking App with Robust Markdown Editor
-	pkgver = 3.13.0
+	pkgver = 3.14.1
 	pkgrel = 1
 	url = https://www.inkdrop.info/
 	arch = x86_64
@@ -16,9 +16,9 @@ pkgbase = inkdrop
 	depends = libgnome-keyring
 	depends = gnome-keyring
 	options = !strip
-	source = https://d3ip0rje8grhnl.cloudfront.net/v3.13.0/Inkdrop-3.13.0-Linux.zip
+	source = https://d3ip0rje8grhnl.cloudfront.net/v3.14.1/Inkdrop-3.14.1-Linux.zip
 	source = inkdrop.desktop
-	sha256sums = c5a6bfed2d8e687713735b01136acf1d8666e7be81bfe1e57a2cfccc121fd82e
+	sha256sums = 44eb7b562fe297321360e04ba011586e1c03427ea7c1d4a757ec7c1ad1bc7f0a
 	sha256sums = a834e49e5361915a9790c3cb1fc418a5d614f317030f796a0341c457c6159a53
 
 pkgname = inkdrop
